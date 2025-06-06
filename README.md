@@ -17,7 +17,6 @@
 -  `url` – Condenses URLs (`github.com › Shuklax › GrillPrep`)
 -  `number` – Adds commas (`123456 → 1,23,456`)
 -  `pluralarize` – Smart plural (`3 apples`)
--  `ordinalize` – English ordinal (`2 → 2nd`)
 -  `diff` – Date difference (`2 months`, `3 days`)
 -  `words` – Limits string by word count
 
@@ -45,7 +44,6 @@ humanize.timeAgo(new Date());   // "just now"
 humanize.url("https://random.com/some/random/links"); // random.com › some › random › links"
 humanize.number(123456);        // "1,23,456"
 humanize.pluralarize("apple", 3); // "3 apples"
-humanize.ordinalize(22);        // "22nd"
 humanize.diff(new Date("2020"), new Date("2023")); // "3 years"
 humanize.words("Hello world this is a test", 3); // "Hello world this..."
 
@@ -65,7 +63,6 @@ humanize.words("Hello world this is a test", 3); // "Hello world this..."
 | `url(string)`       | Simplifies URLs to clean breadcrumbs |
 | `number(number)`    | Adds digit grouping (Indian format)  |
 | `pluralarize(w, c)` | "1 apple" / "2 apples"               |
-| `ordinalize(n)`     | 1 → 1st, 2 → 2nd, 11 → 11th          |
 | `diff(d1, d2)`      | Time difference → "2 months"         |
 | `words(str, limit)` | Trims string to `n` words + `...`    |
 
