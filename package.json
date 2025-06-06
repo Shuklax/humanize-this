@@ -1,0 +1,34 @@
+{
+  "name": "humanize-this",
+  "version": "1.0.0",
+  "description": "Tiny utility library to convert data into human-readable formats like KB, mins, slugs, ordinals, etc.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "author": "Shuklax",
+  "license": "MIT",
+  "keywords": [
+    "humanize",
+    "format",
+    "utility",
+    "slug",
+    "ordinal",
+    "bytes",
+    "cli",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shuklax/humanize-this.git"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.1"
+  }
+}
