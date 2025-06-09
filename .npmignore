@@ -1,4 +1,36 @@
-src
-test
+# Development and test files
+vitest.config.ts
+test/
+coverage/
+.nyc_output/
+
+# Source maps
+*.map
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Git files
+.git/
 .gitignore
-tsconfig.json
+
+# CI and other configs
+.github/
+.editorconfig
+.prettierrc
+.eslintrc
+.eslintignore
+
+# Build artifacts
+dist-test/
+*.tsbuildinfo
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
