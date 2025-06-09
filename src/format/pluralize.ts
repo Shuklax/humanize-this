@@ -1,4 +1,4 @@
-import { getConfig } from "../config";
+import { getConfig } from "../config.js";
 
 // Irregular plurals mapping
 const IRREGULAR_PLURALS: Record<string, string> = {
@@ -94,7 +94,7 @@ export function pluralize(word: string, count: number, locale?: string): string 
   }
 }
 
-function getPluralForm(word: string, count: number, locale: string): string {
+function getPluralForm(word: string, _count: number, _locale: string): string {
   // Check irregular plurals first
   const lowerWord = word.toLowerCase();
   if (IRREGULAR_PLURALS[lowerWord]) {

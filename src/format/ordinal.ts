@@ -1,4 +1,4 @@
-import { getConfig } from "../config";
+import { getConfig } from "../config.js";
 
 export function ordinal(n: number, locale?: string): string {
   try {

@@ -1,4 +1,4 @@
-import { getConfig } from "../config";
+import { getConfig } from "../config.js";
 
 export function number(num: number, locale?: string): string {
   try {
