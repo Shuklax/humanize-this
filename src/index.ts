@@ -1,33 +1,33 @@
-import * as bytes from "./format/bytes";
-import * as currency from "./format/currency";
-import * as number from "./format/number";
-import * as ordinal from "./format/ordinal";
-import * as pluralize from "./format/pluralize";
-import * as time from "./time/time";
-import * as timeAgo from "./time/timeAgo";
-import * as diff from "./time/diff";
-import * as slug from "./string/slug";
-import * as underscoreSlug from "./string/underscoreSlug";
-import * as unSlug from "./string/unSlug";
-import * as words from "./string/words";
-import * as url from "./utils/url";
-import { getConfig, setConfig, type HumanizeConfig } from "./config";
+import * as bytes from "./format/bytes.js";
+import * as currency from "./format/currency.js";
+import * as number from "./format/number.js";
+import * as ordinal from "./format/ordinal.js";
+import * as pluralize from "./format/pluralize.js";
+import * as time from "./time/time.js";
+import * as timeAgo from "./time/timeAgo.js";
+import * as diff from "./time/diff.js";
+import * as slug from "./string/slug.js";
+import * as underscoreSlug from "./string/underscoreSlug.js";
+import * as unSlug from "./string/unSlug.js";
+import * as words from "./string/words.js";
+import * as url from "./utils/url.js";
+import { getConfig, setConfig } from "./config.js";
 
-// Export individual functions
-export * from "./format/bytes";
-export * from "./format/currency";
-export * from "./format/number";
-export * from "./format/ordinal";
-export * from "./format/pluralize";
-export * from "./time/time";
-export * from "./time/timeAgo";
-export * from "./time/diff";
-export * from "./string/slug";
-export * from "./string/underscoreSlug";
-export * from "./string/unSlug";
-export * from "./string/words";
-export * from "./utils/url";
-export { getConfig, setConfig, type HumanizeConfig } from "./config";
+
+export * from "./format/bytes.js";
+export * from "./format/currency.js";
+export * from "./format/number.js";
+export * from "./format/ordinal.js";
+export * from "./format/pluralize.js";
+export * from "./time/time.js";
+export * from "./time/timeAgo.js";
+export * from "./time/diff.js";
+export * from "./string/slug.js";
+export * from "./string/underscoreSlug.js";
+export * from "./string/unSlug.js";
+export * from "./string/words.js";
+export * from "./utils/url.js";
+export { getConfig, setConfig } from "./config.js";
 
 // Export as humanize object
 export const humanize = {
