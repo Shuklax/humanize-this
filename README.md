@@ -200,6 +200,7 @@ import { bytes, currency } from "humanize-this";
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+Feedbacks are most welcome! Feel free to write to me at Shuklax@proton.me
 
 ## License
 
