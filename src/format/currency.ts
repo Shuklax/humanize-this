@@ -7,6 +7,8 @@ const CURRENCY_SYMBOLS: Record<string, string> = {
   "GBP": "£"
 };
 
+type ValidCurrencyCode = keyof typeof CURRENCY_SYMBOLS;
+
 const INDIAN_NUMBER_SYSTEM = {
   CRORE: 1_00_00_000,  // 1 crore = 10 million
   LAKH: 1_00_000,      // 1 lakh = 100 thousand
@@ -16,7 +18,7 @@ const INDIAN_NUMBER_SYSTEM = {
 export function currency(
   num: number,
   localeOrSymbol?: string,
-  currencyCode?: string
+  currencyCode?: ValidCurrencyCode
 ): string {
   try {
     if (typeof num !== 'number' || isNaN(num)) {
